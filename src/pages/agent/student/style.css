@@ -1,0 +1,415 @@
+:root {
+    --main-color: #0975de;
+    --pane-padding: 5px 42px;
+    --Sky-button-hover-color: #61CE70;
+    --sidebar-href-hover-bg-color: #0975de36;
+    --table_bg_tr_color: #31559308;
+    --sub-heading-font-family: 'Nunito';
+    --sub-heading-text-transform: capitalize;
+    --table-heading-font-size: 16px;
+    --table-heading-font-color: #1c1c1c;
+    --table-heading-font-weight: 400;
+    --table-heading-font-line-height: 28px;
+    --table-content-font-weight: 600;
+    --table-content_font-size: 14px;
+    --table-content_font-color: #494949;
+    --table-main-heading-font-size: 15px;
+    --table-main-heading-font-color: #0975de;
+    --table-main-heading-backgrund: #0975de1a;
+    --table-column-width: 40%;
+    --table-normal-font-size: 14px;
+    --table-text-align: right;
+    --table-heading-padding: 0 0px 0 12px;
+    --table-border-radius: 15px;
+    --white-bg: #fff;
+    --small-text: 10px;
+    --onepx-border-light-gray: 1px solid #cccccc30;
+    --form-border-radius: 16px;
+    --not_strong-tag-text-color: #4949495e;
+    --border-left-drag: 1px dotted #fff;
+    --padding-drag: 0 0px 0 17px;
+    --deal-lead-drag: 20%;
+}
+
+.font-10px {
+    font-size: 10px;
+}
+
+.font-15px {
+    font-size: 15px;
+}
+
+.font-20px {
+    font-size: 20px;
+}
+
+.font-25px {
+    font-size: 25px;
+}
+
+.font-30px {
+    font-size: 30px;
+}
+
+.font-31px {
+    font-size: 31px;
+}
+
+.font-32px {
+    font-size: 32px;
+}
+
+.bold-font-700 {
+    font-weight: 700;
+}
+
+.tab-student {
+    height: 50px;
+}
+
+.tab-student .ant-radio-button>span {
+    position: relative !important;
+    top: 15% !important;
+}
+
+.table-background {
+    background-color: white !important;
+    padding: 12px;
+    border-radius: 20px;
+
+}
+
+/* Targeting the scrollbar track */
+::-webkit-scrollbar {
+    width: 0px;
+    /* Set width of the scrollbar */
+}
+
+/* Targeting the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    /* Color of the scrollbar thumb */
+    border-radius: 6px;
+    /* Radius of the scrollbar thumb */
+}
+
+/* Targeting the scrollbar track on hover */
+::-webkit-scrollbar-track:hover {
+    background-color: transparent;
+    /* Change color on hover */
+}
+
+/* Targeting the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: transparent;
+    /* Change thumb color on hover */
+}
+
+/* Targeting the scrollbar corner */
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+    /* Background color of the scrollbar corner */
+}
+
+/* Targeting the scrollbar track when scrollbar is in progress */
+::-webkit-scrollbar-track:active {
+    background-color: transparent;
+    /* Change color when scrollbar is being interacted with */
+}
+
+.table-background {
+    height: 100%;
+}
+
+
+.text-color-blue {
+    color: #006ed9 !important;
+
+}
+
+.text-style {
+    white-space: nowrap;
+    font-size: 15px;
+    line-height: 24px;
+    font-family: 'Nunito';
+}
+
+.ant-table-thead .ant-table-cell {
+    font-weight: 800 !important;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.664) !important;
+}
+
+.css-18v91cr {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    height: 56px;
+    padding: 8px;
+    box-sizing: border-box;
+    box-shadow: rgba(59, 65, 83, 0.14) 0px 2px 10px, rgba(59, 65, 83, 0.12) 0px 4px 16px, rgba(59, 65, 83, 0.18) 0px 6px 18px;
+    border-radius: 8px;
+    cursor: all-scroll;
+    z-index: 30;
+}
+
+.css-hxyrcv {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    height: 100%;
+    position: relative;
+}
+
+.css-1czhqfs:not(:last-of-type) {
+    margin-right: 4px;
+}
+
+.css-1czhqfs {
+    width: 16px;
+    height: 100%;
+    background-color: rgb(210, 214, 225);
+    border-radius: 4px;
+}
+
+.css-11cntbg {
+    width: 64.3399%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 100, 225);
+    border-radius: 4px;
+    position: absolute;
+    top: 0px;
+    transition: left 150ms linear 0s;
+}
+
+
+.table-background {
+    position: relative;
+    overflow-x: auto;
+    white-space: nowrap;
+    /* Prevents table cells from wrapping */
+    -webkit-overflow-scrolling: touch;
+    /* Enables smooth scrolling on iOS */
+}
+
+.my-class-table {
+    min-width: 100%;
+    /* Ensures table occupies full width of container */
+    width: max-content;
+    /* Adjust table width based on content */
+    table-layout: auto;
+    /* Adjusts table layout */
+}
+
+.css-18v91cr {
+    overflow-x: auto;
+    white-space: nowrap;
+    /* Prevents mini-map columns from wrapping */
+    -webkit-overflow-scrolling: touch;
+    /* Enables smooth scrolling on iOS */
+}
+
+.mini-map-columns {
+    display: inline-flex;
+}
+
+
+.window-left {
+    display: flex;
+    /* Ensure content is displayed in a row */
+    transition: transform 0.3s ease;
+    /* Smooth transition for scroll effect */
+}
+
+td.ant-table-cell.text-style.text-center.ant-table-cell-fix-right.ant-table-cell-fix-right-first {
+    text-align: center;
+}
+
+td.ant-table-cell.text-style.text-center {
+    text-align: center;
+}
+
+
+.bg-color-blue {
+    background-color: #0975de;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 10px;
+    width: auto;
+}
+
+.bg-color-blue:hover {
+    background-color: #0975de !important;
+    color: white !important;
+    font-family: sans-serif;
+}
+
+.font-Poppins {
+    font-family: 'Poppins' !important;
+}
+
+.FormButtonSetupCss {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: white !important;
+}
+
+.color_placeholder>div>div>div>input::placeholder {
+    color: var(--main-color);
+}
+
+.set_margin_bottom {
+    margin-bottom: 35px;
+}
+
+.h3_tag {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+@media 
+(min-device-width: 320px) and (max-device-width: 760px) {
+    .modal-btn-custom {
+        padding: 10px 7px 9px 15px !important;
+        margin-bottom: 6px;
+        margin-right: 10px;
+    }
+
+    li>.font-32px {
+        font-size: 28px !important;
+        padding: 15px 0 15px;
+    }
+
+    .h3_tag {
+        padding: 10px 0 0;
+        font-size: 11px !important;
+        font-weight: 600;
+    }
+
+    span.p-button-label.p-c {
+        display: none;
+    }
+
+    .css-18v91cr {
+        display: none;
+    }
+
+    table {
+        width: 100% !important;
+    }
+
+    /* Force table to not be like tables anymore */
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr {
+        border: 1px solid #ccc;
+    }
+
+    .ant-table-cell {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 10% !important;
+    }
+
+    td>a:before {
+        content: attr(data-column) ':';
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 0%;
+        padding-right: 10px;
+        white-space: nowrap;
+        color: #000;
+        font-size: 10px;
+        font-weight: bold;
+
+    }
+
+    td.ant-table-cell.text-style {
+        font-size: 12px;
+    }
+
+    table tbody tr {
+        border-bottom-width: 1px;
+        border-color: rgb(224 230 237 / 0.4) !important;
+        width: -webkit-fill-available;
+        margin: 30px 0;
+    }
+
+    td.ant-table-cell.text-style.text-center.ant-table-cell-fix-right.ant-table-cell-fix-right-first {
+        text-align: right;
+    }
+
+    :where(.css-dev-only-do-not-override-3rel02).ant-tag {
+        position: initial;
+    }
+
+    :where(.css-dev-only-do-not-override-3rel02).ant-tag:before {
+        padding-right: 132px;
+    }
+
+    td.ant-table-cell.text-style.text-center {
+        text-align: right;
+    }
+
+    :is([dir="ltr"] table thead tr th),
+    :is([dir="ltr"] table tfoot tr th),
+    :is([dir="ltr"] table tbody tr td) {
+        text-align: right;
+    }
+
+    td>span:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 0%;
+        padding-right: 10px;
+        white-space: nowrap;
+        /* Label the data */
+        content: attr(data-column) ':';
+
+        color: #000;
+        font-weight: bold;
+        font-size: 10px;
+    }
+
+    #mini-map {
+        width: 100%;
+    }
+
+    .set_margin_bottom>.col-span-3 {
+        grid-column: span 5 / span 5;
+    }
+
+    .set_margin_bottom>.col-span-2 {
+        grid-column: span 5 / span 5;
+    }
+
+    ul.flex.justify-between {
+        display: block;
+    }
+}

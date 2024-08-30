@@ -1,0 +1,239 @@
+.set_modal_w {
+    margin-left: 30%;
+}
+
+@media (min-device-width: 320px) and (max-device-width: 760px) {
+    .table2 thead {
+        display: none;
+    }
+
+    .table2,
+    .table2 tbody,
+    .table2 tr,
+    .table2 td {
+        display: block;
+        width: 100%;
+    }
+
+    .table2 tr {
+        margin-bottom: 15px;
+        border: 1px solid #000;
+    }
+
+    .table2 td {
+        padding-left: 2% !important;
+        text-align: left;
+        position: relative;
+    }
+
+    td>div>span::before {
+        content: attr(data-column) !important;
+        position: absolute !important;
+        left: 0;
+        width: 100%;
+        margin: 0 0 0 -141px;
+        padding-left: 3px;
+        font-size: 11px;
+        font-weight: bold;
+
+    }
+
+    td>span::before {
+        content: attr(data-column) ' :' !important;
+        position: absolute !important;
+        left: 0;
+        margin: 0 0 0 -141px;
+        padding-left: 3px;
+        font-size: 11px;
+        font-weight: bold;
+
+    }
+
+    td>div::before {
+        content: attr(data-column) ' :' !important;
+        position: absolute !important;
+        left: 0;
+        width: 100%;
+        margin: 0 0 0 -141px;
+        padding-left: 3px;
+        font-size: 11px;
+        font-weight: bold;
+
+    }
+
+    td>.design_span_td2::before {
+        content: attr(data-column) !important;
+        position: absolute !important;
+        left: 0;
+        width: 100%;
+        /* margin: 0 0 0 -141px; */
+        padding-left: 3px;
+        font-size: 11px;
+        font-weight: bold;
+
+    }
+
+    td>.design_span_td3::before {
+        content: attr(data-column) !important;
+        position: absolute !important;
+        left: 0;
+        width: 100%;
+        margin: 0 0 0 -141px;
+        padding-left: 3px;
+        font-size: 11px;
+        font-weight: bold;
+
+    }
+
+    .before\:content-\[\'\'\]::before {
+        --tw-content: attr(data-column);
+    }
+
+    span.design_span_td {
+        margin: 3px 0 0 140px;
+        font-size: 8px;
+    }
+
+    .design_span_td>div {
+        margin: 3px 0 0 140px;
+        font-size: 11px;
+    }
+
+    .design_span_td3 {
+        margin: 3px 0 0 140px;
+        font-size: 11px;
+    }
+
+    div#react-aria1000169994-\:r3\:-tabpanel-application {
+        padding: 0 0px 0 18px;
+    }
+
+    .view_GMAT>table>thead>tr>th {
+        max-width: 100%;
+        display: none;
+    }
+
+    .view_GRE>table>thead>tr>th {
+        max-width: 100%;
+        display: none;
+    }
+
+    .view_GMAT>table>tbody>tr>td {
+        max-width: 100%;
+        display: block;
+    }
+
+    .view_GRE>table>tbody>tr>td {
+        max-width: 100%;
+        display: block;
+    }
+
+    .view_GMAT>table>tbody>tr>td {
+        max-width: 100%;
+        display: block;
+    }
+
+    .ant-select-show-search:where(.css-dev-only-do-not-override-3rel02).ant-select:not(.ant-select-customize-input) .ant-select-selector {
+        height: fit-content;
+    }
+
+
+    .set_modal_w {
+        width: 300px;
+    }
+
+    .table4 {
+        border: 0 !important;
+    }
+
+    .table4 caption {
+        font-size: 1.3em;
+    }
+
+    .table4 thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+
+
+    .table4 td {
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: 10px;
+        width: 370px;
+    }
+
+    .table4 td>div>a {
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: 10px;
+        width: 370px;
+        text-align: -webkit-right;
+    }
+
+    .table4>div {
+        width: 273px;
+    }
+
+    .table4 td::before {
+        /*
+        * aria-label has no advantage, it won't be read inside a .table4
+        content: attr(aria-label);
+        */
+        content: attr(data-column) !important;
+        font-weight: bold;
+        text-transform: uppercase;
+        opacity: 1.2 !important;
+        text-align: left;
+        margin: 14px 0 0 8px;
+
+    }
+
+    :is([dir="ltr"] .table4 thead tr th),
+    :is([dir="ltr"] .table4 tfoot tr th),
+    :is([dir="ltr"] .table4 tbody tr td) {
+        text-align: end;
+    }
+
+    .table4 td:last-child {
+        border-bottom: 0;
+    }
+
+    .before\:bg-default\/40::before {
+        content: var(--tw-content);
+        background-color: transparent !important;
+    }
+
+    td>span::before {
+        content: attr(data-column) !important;
+    }
+
+    .flex.justify-end.set_spacing {
+        display: none;
+    }
+
+    .modal_tabs>div>button {
+        padding: 0 5px;
+        height: 23px;
+        font-size: 8px !important;
+    }
+
+    .modal_tabs>div>button>div {
+        font-size: 8px !important;
+    }
+
+    .flex.flex-1.flex-col.gap-3.px-6.py-2 {
+        padding: 13px;
+    }
+
+    .set_w_task_priority {
+        width: 80%;
+        margin: 0 0 0 88px;
+    }
+}

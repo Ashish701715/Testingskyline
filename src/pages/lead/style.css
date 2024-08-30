@@ -1,0 +1,35 @@
+.p-4.z-0.flex.flex-col.relative.justify-between.gap-4.bg-content1.overflow-auto.rounded-large.shadow-small.w-full.max-h-\[382px\] {
+    height: 424px;
+    max-height: 100%;
+}
+
+tr.group.outline-none.data-\[focus-visible\=true\]\:z-10.data-\[focus-visible\=true\]\:outline-2.data-\[focus-visible\=true\]\:outline-focus.data-\[focus-visible\=true\]\:outline-offset-2.cursor-default:hover {
+    background: rgba(140, 143, 143, 0.178);
+}
+.data-\[hover\=true\]\:border-default-400[data-hover=true] {
+    --tw-border-opacity: 1;
+    border-color: hsl(var(--nextui-default-400) / var(--nextui-default-400-opacity, var(--tw-border-opacity)));
+    border: 2px solid #0f37fb;
+}
+.transition-colors {
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: ease;
+    transition-duration: 250ms;
+    border-radius: 20px;
+}
+.ant-drawer-mask {
+    backdrop-filter: blur(3px);
+}
+
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent; /* Background color of the scrollbar track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0); /* Color of the scrollbar thumb */
+    border-radius: 5px; /* Border radius of the scrollbar thumb */
+  }

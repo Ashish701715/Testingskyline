@@ -1,0 +1,9 @@
+.scrollable-form {
+    max-height: 80vh; /* Adjust this value as needed */
+    overflow-y: auto;
+}
+@media (min-device-width: 320px) and (max-device-width: 760px) {
+    .inviteuser {
+        margin-left: 0%!important;
+    }
+}

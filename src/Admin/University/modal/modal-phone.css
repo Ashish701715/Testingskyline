@@ -1,0 +1,45 @@
+.ant-drawer-content.university_modal_css {
+    width: 900px;
+}
+
+@media (min-device-width: 320px) and (max-device-width: 426px) {
+    :where(.css-dev-only-do-not-override-3rel02).ant-drawer .ant-drawer-header {
+        display: block;
+    }
+
+    :where(.css-dev-only-do-not-override-3rel02).ant-drawer .ant-drawer-header>.ant-drawer-header-title {
+        padding-bottom: 19px;
+    }
+
+    .container.mx-auto.py-8.px-4.md\:px-6.lg\:px-8 {
+        padding: 0;
+    }
+
+    :where(.css-dev-only-do-not-override-3rel02).ant-drawer .ant-drawer-body {
+        padding: 14px;
+    }
+
+    .p-10 {
+        padding: 20px;
+    }
+
+    h1.text-3xl.font-bold.tracking-tight.sm\:text-4xl {
+        font-size: 19px;
+    }
+
+    .tab_box1 {
+        margin: 0 0px;
+    }
+
+    .panel {
+        margin: 6px;
+    }
+
+    .ant-drawer-content.university_modal_css {
+        width: 300px;
+    }
+
+    .hidde_columns {
+        display: none;
+    }
+}

@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+    font-size: 14px;
+}
+
+body {
+    font-family: poppins;
+    font-weight: normal;
+    background: var(--surface-ground);
+    color: var(--text-color);
+    padding: 1rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.page_headng {
+    font-size: 25px;
+    font-family: poppins;
+    font-weight: 600;
+    padding-top: 11px;
+}
+
+/* .card {
+    background: var(--surface-card);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+} */
+
+.custom-flex-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.custom-flex-item {
+    flex: 1;
+}
+
+.custom-select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #d1d5db;
+    border-radius: 80px;
+    outline: none;
+    transition: box-shadow 0.3s;
+    font-family: poppins;
+}
+
+.p-card .p-card-body {
+    padding: 18px 23px 0;
+}
+
+.custom-select:focus {
+    box-shadow: 0 0 0 2px #3b82f6;
+}
+
+.text_align_end {
+    text-align: end;
+}
+
+.p-card {
+    background: #ffffff;
+    color: #4b5563;
+    box-shadow: 0 0 10px #002e7917;
+    border-radius: 6px;
+    width: 320px;
+}
+
+.p-card-content {
+    padding: 0px 0 18px 0;
+}
+
+.design_bg_university {
+    /* box-shadow: 0 0 7px #002e7954; */
+    padding: 10px 10px 2px;
+    border: 1px solid #cccccc42;
+    border-radius: 8px;
+}
+
+.design_clg_img>img {
+    border-radius: 27px;
+    width: 66%;
+}
+
+.custom-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 7px 0px;
+    background-color: #ffffff47;
+    color: #002e79;
+    border: 1px solid;
+    border-radius: 21px;
+    width: 77%;
+    cursor: pointer;
+    font-weight: 500 !important;
+    font-size: 15px;
+    font-family: poppins;
+}
+
+.flex.design_col_gap {
+    gap: 2rem;
+    margin-bottom: 29px;
+}
+
+.custom-button:hover {
+    background-color: #002e79;
+    color: #fff;
+}
+
+.custom-button:focus {
+    box-shadow: 0 0 0 2px #002e79;
+}
+
+/* .custom-card-width{
+    width:30%;
+} */
+
+.custom-card-heading .p-card-title {
+    font-size: 15px;
+    /* Decrease font size as needed */
+}
+
+.card-content-custom {
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.card-content-custom-1 {
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.btn-custom {
+    font-weight: 600;
+    font-size: 12px;
+    border: 1px solid #3B82F6;
+    background-color: #3b83f631;
+    color: #3B82F6;
+    padding: 2px 7px 2px 7px;
+}
+
+.priority {
+    font-size: 10px;
+}
+
+.priority-1 {
+    background-color: #83be3e42;
+    padding: 2px 7px 2px 7px;
+    border-radius: 9px;
+    color: #68a13e;
+}
+
+.priority-2 {
+    background-color: #fdad1c52;
+    padding: 2px 7px 2px 7px;
+    border-radius: 12px;
+    color: #f58128;
+}
+
+.priority-3 {
+    background-color: #cc1a2426;
+    padding: 2px 7px 2px 7px;
+    border-radius: 12px;
+    color: #e32030;
+}
+
+.create-application-custom {
+    justify-content: center;
+    border: 1px solid #002e79;
+    background-color: rgb(0 46 121 / 22%);
+    padding: 7px 0px 7px 0px;
+    border-radius: 8px;
+    font-weight: 500;
+    color: #002e79;
+    width: 100%;
+    margin-top: 24px;
+}
+
+.card-img-custom {
+    border-radius: 8px 8px 0px 0px;
+    border: 1px solid #00000061;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    padding: 5px;
+
+}
+
+.clg-type-custom {
+    background-color: rgb(0 46 121 / 22%);
+    padding: 2px 7px 2px 7px;
+    border-radius: 12px;
+    font-size: 10px;
+    margin-top: -12px;
+    margin-bottom: 10px;
+    color: #002e79;
+}
+
+.clg-type-custom-1 {
+    background-color: #83be3e42;
+    padding: 2px 7px 2px 7px;
+    border-radius: 12px;
+    font-size: 10px;
+    margin-top: -12px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    color: #61a13e;
+}
+
+.popover-content {
+    font-size: 9px;
+}
+
+.design_p_tag_u {
+    font-size: 14px;
+    padding: 0px 0 22px;
+    line-height: 9px;
+    height: 35px;
+}
+
+.my_class {
+    font-weight: 600;
+    margin: 18px 0 9px;
+    font-size: medium;
+}
+
+.ant-drawer-content-wrapper {
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: none !important;
+}
+
+.new-header-class {
+    border-radius: 15px;
+}
+
+.ApplyCourse {
+    background: #e5e5e56e;
+    padding: 9px;
+    border-radius: 13px;
+}
+
+/* .set_widht_enroll_form{
+    width: 100%!important;
+} */
+@media (min-device-width: 320px) and (max-device-width: 760px) {
+    .p-card {
+        width: 285px;
+    }
+
+    .set_width_document {
+        display: inline-block;
+    }
+
+    .set_width_document>div {
+        min-width: 100%;
+    }
+
+    .set_width_document {
+        display: inline-block;
+        min-width: 100%;
+    }
+
+    .Tab-Section .fix-bottom {
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        margin: 5px 7px 1px 31px;
+    }
+
+    .scroller-class-table {
+        height: 400px !important;
+    }
+
+    .sticky_tab_header {
+        display: inline;
+    }
+
+    .table6 {
+        border: 0;
+    }
+
+    .table6 caption {
+        font-size: 1.3em;
+    }
+
+    .table6 thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+
+    .table6 tr {
+        border: 1px solid #0000000d !important;
+        display: block;
+        margin-bottom: .625em;
+        padding: 4px 0 0 6px;
+    }
+
+    .table6 td {
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: 9px !important;
+        text-align: right !important;
+        line-height: 10px;
+        color: #656565;
+    }
+
+    .table6 td>div>a {
+        margin: 0 0 0 auto;
+
+    }
+
+    .table6 td::before {
+        /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+        content: attr(data-column) !important;
+        font-weight: 600;
+        opacity: 1.0 !important;
+        text-align: left;
+        color: #000;
+    }
+
+    .table6>td>span {
+        width: 25px !important;
+    }
+
+    .table6 td:last-child {
+        border-bottom: 0;
+    }
+
+    .design_bg_university>div {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .before\:bg-default\/40::before {
+        content: var(--tw-content);
+        background-color: transparent !important;
+    }
+
+    .set_margin_leave_headeer {
+        margin-top: 12px;
+    }
+
+    .custom-flex-container {
+        display: block;
+    }
+
+    button.btn.btn-primary {
+        font-size: 9px;
+    }
+
+    .set_height_input {
+        height: 45px;
+        margin: 0px 0 0 0px;
+        width: 112px;
+        padding: 2px 0 0 0px;
+    }
+}

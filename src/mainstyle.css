@@ -1,0 +1,300 @@
+:root {
+  --main-color: #0975de;
+  --pane-padding: 5px 42px;
+  --Sky-button-hover-color: #61CE70;
+  --sidebar-href-hover-bg-color: #0975de36;
+  --table_bg_tr_color: #31559308;
+  --sub-heading-font-family: 'Nunito';
+  --sub-heading-text-transform: capitalize;
+  --table-heading-font-size: 16px;
+  --table-heading-font-color: #1c1c1c;
+  --table-heading-font-weight: 400;
+  --table-heading-font-line-height: 28px;
+  --table-content-font-weight: 600;
+  --table-content_font-size: 14px;
+  --table-content_font-color: #494949;
+  --table-main-heading-font-size: 15px;
+  --table-main-heading-font-color: #0975de;
+  --table-main-heading-backgrund: #0975de1a;
+  --table-column-width: 40%;
+  --table-normal-font-size: 14px;
+  --table-text-align: right;
+  --table-heading-padding: 0 0px 0 12px;
+  --table-border-radius: 15px;
+  --white-bg: #fff;
+  --small-text: 10px;
+  --onepx-border-light-gray: 1px solid #cccccc30;
+  --form-border-radius: 16px;
+  --not_strong-tag-text-color: #4949495e;
+  --border-left-drag: 1px dotted #fff;
+  --padding-drag: 0 0px 0 17px;
+  --deal-lead-drag: 20%;
+}
+
+
+.set_bg_and_border {
+  border-left: var(--border-left-drag);
+  padding: var(--padding-drag);
+  width: var(--deal-lead-drag);
+}
+
+@media (max-width: 500px) {
+  .table thead {
+    display: none;
+  }
+
+  .table,
+  .table tbody,
+  .table tr,
+  .table td {
+    display: block;
+    width: 100%;
+  }
+
+  .table tr {
+    margin-bottom: 15px;
+  }
+
+  .table td {
+    padding-left: 50%;
+    text-align: left;
+    position: relative;
+  }
+
+  .table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 50%;
+    padding-left: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+  }
+}
+
+.design_input {
+  font-weight: 400;
+  font-size: 13px;
+  color: #666 !important;
+  background: #e9edf3;
+  width: 100%;
+  height: 42px;
+  border-radius: 23px;
+}
+
+.design_input>.css-13cymwt-control {
+  font-weight: 400;
+  font-size: 13px;
+  color: #666 !important;
+  background: #e9edf3;
+  width: 100%;
+  height: 42px;
+  border-radius: 23px;
+  border: none;
+}
+
+.footer-section-bottom {
+  position: absolute;
+  bottom: 30px;
+}
+
+.btn-danger {
+  background-color: red !important;
+  color: white !important;
+  border: none !important;
+}
+
+.btn-danger:hover {
+  background-color: red !important;
+  color: white !important;
+  border: none !important;
+}
+
+.btn-success {
+  background-color: #3e8c44 !important;
+  color: white !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.clockdesign {
+  border: 1px solid #2196f300;
+  padding: 5px 10px;
+  margin: 10px 0;
+  border-radius: 17px;
+  background: var(--main-color);
+  color: white;
+}
+
+.clockdesign>div>h1.font-semibold {
+  font-weight: 600;
+  font-size: 14px;
+  margin: 1px 0 0 0;
+  line-height: 17px;
+}
+
+.dropdown.shrink-0.flex {
+  margin: 0 25px 0 14px;
+}
+
+span.text-sm.btn-primary>svg {
+  width: 17px;
+  margin: -3px 0 0 0;
+}
+
+span.text-sm.btn-primary {
+  font-size: 15px;
+  line-height: 5px;
+  font-weight: 600;
+}
+
+.btn-success:hover {
+  background-color: #3e8c44 !important;
+  color: white !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.table-background-admin::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #F5F5F5;
+}
+
+.table-background-admin::-webkit-scrollbar {
+  width: 10px;
+  background-color: #F5F5F5;
+}
+
+.table-background-admin::-webkit-scrollbar-thumb {
+  background-color: #555555;
+  border: 2px solid #555555;
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.h-\[100\%\].mx-2.mb-2.crm-kanban-item-line.sortable-list.css-s18byi {
+  background-color: rgb(0 110 217 / 5%) !important;
+  box-shadow: 0px -1px 9px -5px #008eff4d, 0px 1px 1px 0px #2196f329, 0px 1px 5px 0px #2196f345 !important;
+  margin-bottom: 19px;
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1024px) {
+  img.set_staff_logo {
+    width: 150px;
+  }
+}
+
+@media (min-device-width: 320px) and (max-device-width: 760px) {
+  .clockdesign>div>h1.font-semibold {
+    font-size: 12px;
+  }
+
+  span.text-sm.btn-primary {
+    font-size: 13px;
+  }
+
+  .main-content.flex.flex-col.min-h-screen>.p-6 {
+    padding: 0 6px;
+  }
+
+  .table-background {
+    overflow-x: hidden;
+  }
+
+  .set_padding {
+    padding-top: 12px;
+  }
+
+  label.design_modal_label {
+    display: none;
+  }
+
+  #FomrId>.grid-cols-1 {
+    grid-template-columns: repeat(2, minmax(0, 4fr));
+    display: block;
+  }
+
+  #FomrId>.grid-cols-1>div {
+    grid-template-columns: repeat(2, minmax(0, 4fr));
+  }
+
+  #FomrId,
+  .design_input {
+    margin: 6px 0 8px 0;
+  }
+
+  .ant-col.ant-col-8.gutter-row.css-dev-only-do-not-override-3rel02 {
+    margin: 8px 0;
+  }
+
+  input#Txtpassword {
+    width: 80vw;
+  }
+
+  .header-heading.mt-5.flex {
+    display: block;
+  }
+
+  .form_desgin_phone>.ant-col-9 {
+    display: block;
+    flex: 1;
+    max-width: 96%;
+  }
+
+  .form_desgin_phone>.ant-col-14 {
+    display: block;
+    flex: 1;
+    max-width: 95%;
+    margin: 12px 0 0 0;
+  }
+
+  .avatar {
+    background-color: var(--main-color);
+    width: 113px;
+    height: 21px;
+    display: none !important;
+  }
+
+  .set_tabs_info>div>button>div {
+    font-size: 10px !important;
+    text-transform: lowercase;
+  }
+
+  .set_tabs_info>div>button {
+    padding: 0 6px;
+  }
+
+  .set_tabs_info>.outline-none>.table2,
+  .table2 tbody,
+  .table2 tr,
+  .table2 td {
+    display: block;
+    width: 100% !important;
+  }
+
+  /* //staff dashboard */
+  .relative.bg-white.flex.w-full.items-center.px-5.py-2\.5.dark\:bg-black {
+    display: block;
+  }
+
+  img.set_staff_logo {
+    width: 197px;
+  }
+}
+
+@media (min-device-width: 768px) and (max-device-width:1024px) {
+  .set_bg_and_border {
+    width: 40%;
+    padding: 0;
+  }
+
+  .md\:flex-nowrap {
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-device-width: 1025px) and (max-device-width:1440px) {
+  .set_bg_and_border {
+    width: 28%;
+    padding: 0;
+  }
+}

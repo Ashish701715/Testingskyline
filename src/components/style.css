@@ -1,0 +1,848 @@
+.font-10px {
+    font-size: 10px;
+}
+
+.font-15px {
+    font-size: 15px;
+}
+
+.font-20px {
+    font-size: 20px;
+}
+
+.font-25px {
+    font-size: 25px;
+}
+
+.font-30px {
+    font-size: 30px;
+}
+
+.font-31px {
+    font-size: 31px;
+}
+
+.font-32px {
+    font-size: 32px;
+}
+
+.bold-font-700 {
+    font-weight: 700;
+}
+
+.tab-student {
+    height: 50px;
+}
+
+.tab-student .ant-radio-button>span {
+    position: relative !important;
+    top: 15% !important;
+}
+
+.table-background {
+    background-color: white !important;
+    padding: 12px;
+    border-radius: 20px;
+
+}
+
+/* Targeting the scrollbar track */
+::-webkit-scrollbar {
+    width: 12px;
+    /* Set width of the scrollbar */
+}
+
+/* Targeting the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    /* Color of the scrollbar thumb */
+    border-radius: 6px;
+    /* Radius of the scrollbar thumb */
+}
+
+/* Targeting the scrollbar track on hover */
+::-webkit-scrollbar-track:hover {
+    background-color: #f0f0f0;
+    /* Change color on hover */
+}
+
+/* Targeting the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+    /* Change thumb color on hover */
+}
+
+/* Targeting the scrollbar corner */
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+    /* Background color of the scrollbar corner */
+}
+
+/* Targeting the scrollbar track when scrollbar is in progress */
+::-webkit-scrollbar-track:active {
+    background-color: #ddd;
+    /* Change color when scrollbar is being interacted with */
+}
+
+.table-background {
+    height: 100%;
+}
+
+
+.text-color-blue {
+    color: #0064e1 !important;
+
+}
+
+.text-style {
+    white-space: nowrap;
+    font-size: 15px;
+    line-height: 24px;
+    font-family: 'Nunito';
+}
+
+.ant-table-thead .ant-table-cell {
+    font-weight: 800 !important;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.664) !important;
+}
+
+.css-18v91cr {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    right: 40px;
+    bottom: 12px;
+    height: 56px;
+    padding: 8px;
+    box-sizing: border-box;
+    box-shadow: rgba(59, 65, 83, 0.14) 0px 2px 10px, rgba(59, 65, 83, 0.12) 0px 4px 16px, rgba(59, 65, 83, 0.18) 0px 6px 18px;
+    border-radius: 8px;
+    cursor: all-scroll;
+    z-index: 30;
+}
+
+.css-hxyrcv {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    height: 100%;
+    position: relative;
+}
+
+.css-1czhqfs:not(:last-of-type) {
+    margin-right: 4px;
+}
+
+.css-1czhqfs {
+    width: 16px;
+    height: 100%;
+    background-color: rgb(210, 214, 225);
+    border-radius: 4px;
+}
+
+.css-11cntbg {
+    width: 64.3399%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 100, 225);
+    border-radius: 4px;
+    position: absolute;
+    top: 0px;
+    transition: left 150ms linear 0s;
+}
+
+
+.table-background {
+    position: relative;
+    overflow-x: auto;
+    white-space: nowrap;
+    /* Prevents table cells from wrapping */
+    -webkit-overflow-scrolling: touch;
+    /* Enables smooth scrolling on iOS */
+}
+
+.my-class-table {
+    min-width: 100%;
+    /* Ensures table occupies full width of container */
+    width: max-content;
+    /* Adjust table width based on content */
+    table-layout: auto;
+    /* Adjusts table layout */
+}
+
+.css-18v91cr {
+    width: 173px;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.mini-map-columns {
+    display: inline-flex;
+}
+
+
+.window-left {
+    display: flex;
+    /* Ensure content is displayed in a row */
+    transition: transform 0.3s ease;
+    /* Smooth transition for scroll effect */
+}
+
+td.ant-table-cell.text-style.text-center.ant-table-cell-fix-right.ant-table-cell-fix-right-first {
+    text-align: center;
+}
+
+td.ant-table-cell.text-style.text-center {
+    text-align: center;
+}
+
+
+.bg-color-blue {
+    background-color: #0975de;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 10px;
+    width: auto;
+}
+
+.bg-color-blue:hover {
+    background-color: #0975de !important;
+    color: white !important;
+    font-family: sans-serif;
+}
+
+.font-Poppins {
+    font-family: 'Poppins' !important;
+}
+
+.FormButtonSetupCss {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: white !important;
+}
+
+
+
+.font-10px {
+    font-size: 10px;
+}
+
+.font-15px {
+    font-size: 15px;
+}
+
+.font-20px {
+    font-size: 20px;
+}
+
+.font-25px {
+    font-size: 25px;
+}
+
+.font-30px {
+    font-size: 30px;
+}
+
+.font-31px {
+    font-size: 31px;
+}
+
+.font-32px {
+    font-size: 32px;
+}
+
+.bold-font-700 {
+    font-weight: 700;
+}
+
+.tab-student {
+    height: 50px;
+}
+
+.tab-student .ant-radio-button>span {
+    position: relative !important;
+    top: 15% !important;
+}
+
+.table-background {
+    background-color: white !important;
+    padding: 12px;
+    border-radius: 20px;
+
+}
+
+/* Targeting the scrollbar track */
+::-webkit-scrollbar {
+    width: 12px;
+    /* Set width of the scrollbar */
+}
+
+/* Targeting the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    /* Color of the scrollbar thumb */
+    border-radius: 6px;
+    /* Radius of the scrollbar thumb */
+}
+
+/* Targeting the scrollbar track on hover */
+::-webkit-scrollbar-track:hover {
+    background-color: #f0f0f0;
+    /* Change color on hover */
+}
+
+/* Targeting the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+    /* Change thumb color on hover */
+}
+
+/* Targeting the scrollbar corner */
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+    /* Background color of the scrollbar corner */
+}
+
+/* Targeting the scrollbar track when scrollbar is in progress */
+::-webkit-scrollbar-track:active {
+    background-color: #ddd;
+    /* Change color when scrollbar is being interacted with */
+}
+
+.table-background {
+    height: 100%;
+}
+
+
+.text-color-blue {
+    color: #0064e1 !important;
+
+}
+
+.text-style {
+    white-space: nowrap;
+    font-size: 15px;
+    line-height: 24px;
+    font-family: 'Nunito';
+}
+
+.ant-table-thead .ant-table-cell {
+    font-weight: 800 !important;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.664) !important;
+}
+
+.css-18v91cr {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    right: 40px;
+    bottom: 12px;
+    height: 56px;
+    padding: 8px;
+    box-sizing: border-box;
+    box-shadow: rgba(59, 65, 83, 0.14) 0px 2px 10px, rgba(59, 65, 83, 0.12) 0px 4px 16px, rgba(59, 65, 83, 0.18) 0px 6px 18px;
+    border-radius: 8px;
+    cursor: all-scroll;
+    z-index: 30;
+}
+
+.css-hxyrcv {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    height: 100%;
+    position: relative;
+}
+
+.css-1czhqfs:not(:last-of-type) {
+    margin-right: 4px;
+}
+
+.css-1czhqfs {
+    width: 16px;
+    height: 100%;
+    background-color: rgb(210, 214, 225);
+    border-radius: 4px;
+}
+
+.css-11cntbg {
+    width: 64.3399%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 100, 225);
+    border-radius: 4px;
+    position: absolute;
+    top: 0px;
+    transition: left 150ms linear 0s;
+}
+
+
+.table-background {
+    position: relative;
+    overflow-x: auto;
+    white-space: nowrap;
+    /* Prevents table cells from wrapping */
+    -webkit-overflow-scrolling: touch;
+    /* Enables smooth scrolling on iOS */
+}
+
+.my-class-table {
+    min-width: 100%;
+    /* Ensures table occupies full width of container */
+    width: max-content;
+    /* Adjust table width based on content */
+    table-layout: auto;
+    /* Adjusts table layout */
+}
+
+.css-18v91cr {
+    width: 173px;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.mini-map-columns {
+    display: inline-flex;
+}
+
+
+.window-left {
+    display: flex;
+    /* Ensure content is displayed in a row */
+    transition: transform 0.3s ease;
+    /* Smooth transition for scroll effect */
+}
+
+td.ant-table-cell.text-style.text-center.ant-table-cell-fix-right.ant-table-cell-fix-right-first {
+    text-align: center;
+}
+
+td.ant-table-cell.text-style.text-center {
+    text-align: center;
+}
+
+
+.bg-color-blue {
+    background-color: #0975de;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 10px;
+    width: auto;
+}
+
+.bg-color-blue:hover {
+    background-color: #0975de !important;
+    color: white !important;
+    font-family: sans-serif;
+}
+
+.font-Poppins {
+    font-family: 'Poppins' !important;
+}
+
+.FormButtonSetupCss {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: white !important;
+}
+
+.group[data-selected=true] .group-data-\[selected\=true\]\:text-default-foreground {
+    color: black !important;
+    border-radius: 9px;
+}
+div#mini-map {
+    display: none;
+}
+.set_modal_width {
+    width: 507px !important;
+}
+.ant-drawer-content.university_modal_css {
+    width: 664px;
+}
+.relative.z-10.whitespace-nowrap.transition-colors.text-default-500.group-data-\[selected\=true\]\:text-default-foreground {
+    color: #0975de;
+}
+@media (min-device-width: 320px) and (max-device-width: 760px) {
+    .modal-btn-custom {
+        padding: 10px 7px 9px 15px !important;
+        margin-bottom: 6px;
+        margin-right: 10px;
+    }
+    .demos {
+        padding: 16px 0;
+    }
+    li>.font-32px {
+        font-size: 23px !important;
+        padding: 22px 0 10px;
+        line-height: 30px;
+    }
+    .grid.grid-cols-5.gap-11.set_margin_bottom.mt-5 {
+        margin-top: 0;
+        gap: 0;
+    }
+    .h3_tag {
+        padding: 10px 0 0;
+        font-size: 11px !important;
+        font-weight: 600;
+    }
+
+    span.p-button-label.p-c {
+        display: none;
+    }
+
+    .css-18v91cr {
+        display: none;
+    }
+
+    table {
+        width: 100% !important;
+    }
+    .ant-picker-dropdown .ant-picker-header{
+        padding: 0 20px;
+    }
+ .ant-picker-dropdown > .ant-picker-panel-container > .ant-picker-panels {
+        margin: 0px -31px 0 -19px;
+        padding: 15px;
+    }
+  .ant-picker-dropdown .ant-picker-panel-container .ant-picker-panels {
+        display: block;
+        margin: 0px -30px 0 -15px;
+        width: 320px;
+        padding: 15px;
+    }
+    .ant-picker-dropdown .ant-picker-c{
+        padding: 0;
+    }
+    table.ant-picker-content > tbody > tr{
+        margin: 0px 5px 0 5px;
+        padding: 0 15px 0 0;
+    }
+    td.ant-picker-cell {
+        padding: 0 0 0 8px!important;
+    }
+    .ant-picker-dropdown .ant-picker-cell .ant-picker-cell-inner {
+        position: relative;
+        font-size: 13px;
+        z-index: 2;
+        display: inline-block;
+        min-width: 18px;
+        height: 20px;
+        line-height: 16px;
+        border-radius: 4px;
+    }
+    .ant-picker-dropdown .ant-picker-date-panel .ant-picker-body {
+        padding: 8px 9px;
+    }
+    td.ant-picker-cell.ant-picker-cell-in-view.ant-picker-cell-today{
+        padding: 0;
+    }
+    table.ant-picker-content > tbody{
+        display: flex;
+
+    }
+    /* Force table to not be like tables anymore */
+    .table > table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    /* tr {
+        width: 299px;
+    } */
+
+    .ant-table-cell {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 10% !important;
+    }
+
+    td>a:before {
+        content: attr(data-column) ':';
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 0%;
+        padding-right: 10px;
+        white-space: nowrap;
+        color: #000;
+        font-size: 10px;
+        font-weight: bold;
+
+    }
+
+    .Editable:before {
+        margin: 0 0 0 -220px !important;
+        color: #000;
+        padding-left: 0px;
+        /* font-weight: 400!important; */
+        font-size: 10px !important;
+
+    }
+   
+
+    .action_btn_lead:before {
+        margin: 0 0 0 -207px !important;
+        color: #000;
+    }
+   
+
+    .action_btn_lead {
+        padding-left: 0% !important;
+    }
+
+    td.ant-table-cell.text-style {
+        font-size: 12px;
+    }
+
+    table tbody tr {
+        /* border-bottom-width: 1px; */
+        /* border-color: rgb(224 230 237 / 0.4) !important; */
+        width: -webkit-fill-available;
+        margin: 30px 0;
+        width: 299px;
+    }
+
+    td.ant-table-cell.text-style.text-center.ant-table-cell-fix-right.ant-table-cell-fix-right-first {
+        text-align: right;
+    }
+
+    td>div>a {
+        text-align: right;
+    }
+
+    :where(.css-dev-only-do-not-override-3rel02).ant-table-wrapper .ant-table-cell-fix-right-first::after,
+    :where(.css-dev-only-do-not-override-3rel02).ant-table-wrapper .ant-table-cell-fix-right-last::after {
+        position: absolute;
+        top: 0;
+        bottom: -1px;
+        left: 0;
+        width: 30px;
+        transform: translateX(-100%);
+        transition: box-shadow 0.3s;
+        content: "";
+        pointer-events: none;
+    }
+
+    :where(.css-dev-only-do-not-override-3rel02).ant-tag {
+        position: initial;
+    }
+
+    :where(.css-dev-only-do-not-override-3rel02).ant-tag:before {
+        padding-right: 132px;
+    }
+
+    td.ant-table-cell.text-style.text-center {
+        text-align: right;
+    }
+
+    :is([dir="ltr"] table thead tr th),
+    :is([dir="ltr"] table tfoot tr th),
+    :is([dir="ltr"] table tbody tr td) {
+        text-align: right;
+    }
+
+    td>span:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 0%;
+        padding-right: 10px;
+        white-space: nowrap;
+        /* Label the data */
+        content: attr(data-column) ' :';
+
+        color: #000;
+        font-weight: bold;
+        font-size: 10px;
+    }
+
+    a.text-primary.mr-2.hover\:text-primary.active {
+        margin: 0 5px 0 200px;
+    }
+    svg.w-6.svg_desgin_p {
+        margin: 0 14px 0 -4px;
+    }
+    table tbody tr {
+        margin: 7px 0;
+    }
+    td>div>a:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 0%;
+        padding-right: 10px;
+        white-space: nowrap;
+        /* Label the data */
+        content: attr(data-column) ' :';
+
+        color: #000;
+        font-weight: bold;
+        font-size: 10px;
+    }
+    td>div:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 0%;
+        padding-right: 10px;
+        white-space: nowrap;
+        /* Label the data */
+        content: attr(data-column) ' :';
+
+        color: #000;
+        font-weight: bold;
+        font-size: 10px;
+        margin: 13px 0 0 0;
+    }
+   
+    span.font-style_duali_heading {
+        font-size: 9px;
+        line-height: 4px;
+        padding: 1px;
+    }
+    .hidde_text {
+        font-size: 9px;
+        line-height: 2px;
+    }
+    .full_duel_heading{
+        line-height: 13px;
+    }
+    #mini-map {
+        width: 100%;
+    }
+
+    .set_margin_bottom>.col-span-3 {
+        grid-column: span 5 / span 5;
+    }
+
+    .set_margin_bottom>.col-span-2 {
+        grid-column: span 5 / span 5;
+    }
+
+    ul.flex.justify-between {
+        display: block;
+    }
+    .flex.w-full.flex-wrap.md\:flex-nowrap.md\:mb-0.justify-end {
+        justify-content: flex-start;
+    }
+    .main-content.flex.flex-col.min-h-screen > .p-6 > .p-5{
+        padding: 0 6px;
+     }
+     .relative.z-10.whitespace-nowrap.transition-colors.text-default-500.group-data-\[selected\=true\]\:text-default-foreground {
+        font-size: 10px;
+    }
+    div.flex.set_btn_margin {
+        margin: 0 28px 0 -25px;
+    }
+
+
+
+
+    td.ant-table-cell.text-style > span {
+        margin: 0 0 0 65px;
+    }
+
+    /* td.ant-table-cell.text-style > span > a {
+        margin: 0 0 0 86px;
+    } */
+    .table_phone_width  tbody {
+        width: 282px;
+    }
+
+    .Editable4 {
+        background: transparent !important;
+    }
+    .Editable4:before {
+        margin: 0 0 0 -252px !important;
+        color: #000;
+        padding-left: 0px;
+        /* font-weight: 400!important; */
+        font-size: 10px !important;
+        content: attr(data-column) ' :';
+        font-weight: 700;
+
+    }
+ .action_btn_lead4:before {
+        margin: 0 0 0 -1px !important;
+        color: #000;
+    }
+
+
+
+
+    .Editable5 {
+        background: transparent !important;
+    }
+    .Editable5:before {
+        margin: 0 0 0 -255px !important;
+        color: #000;
+        padding-left: 0px;
+        /* font-weight: 400!important; */
+        font-size: 10px !important;
+        content: attr(data-column) ' :';
+        font-weight: 700;
+
+    }
+        .action_btn_lead5:before {
+        margin: 0 0 0 -1px !important;
+        color: #000;
+    }
+    .set_modal_width{
+        width: 100%!important;
+    }
+    .set_modal_width > .ant-drawer-header {
+        display: inline-block;
+    }
+    .set_modal_width > .ant-drawer-header > .ant-drawer-header-title {
+        padding: 10px 0;
+    }
+    .set_form_col > .ant-col-12 {
+        max-width: 100%!important;
+        flex: 1;
+    }
+    .set_modal_width > .ant-drawer-body {
+        scrollbar-width: thin;
+    }
+
+
+    .grid.grid-cols-2.items-center.gap-4 {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+    .ant-drawer-content.university_modal_css {
+        width: 664px;
+    }
+    .university_modal_css > .ant-drawer .ant-drawer-header {
+        display: block!important;
+    }
+    .university_modal_css > .ant-drawer .ant-drawer-header > .ant-drawer-header-title {
+        padding-bottom: 19px;
+    }
+    }

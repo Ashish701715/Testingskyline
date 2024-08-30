@@ -1,0 +1,219 @@
+.offcanvas-container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  overflow-x: hidden;
+  transition: width 0.3s ease;
+}
+
+.offcanvas-container.open {
+  width: 250px; /* Adjust width as needed */
+}
+
+.offcanvas {
+  background-color: white;
+  height: 100%;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.modalclose
+{
+  margin-left: 15%;
+}
+.flex-d
+{
+  display: contents;
+}
+.box-shadow-card
+{
+box-shadow: 6px 5px 13px -1px rgba(0,0,0,0.2),
+     7px -3px 17px 0px rgba(0,0,0,0.14), 
+     0px 1px 3px 0px rgba(0,0,0,0.12)!important;
+}
+.input-number
+{
+width: 100%;
+border: 1px solid #0000004d;
+padding: 12px;
+margin: 0;
+border-radius: 6px;
+height: 57px;
+}
+.PhoneInputCountry {
+position: relative;
+align-self: stretch;
+display: flex;
+align-items: center;
+margin-right: var(--PhoneInputCountrySelect-marginRight);
+/* border: 1px solid #0000004d; */
+padding: 7px;
+}
+input.PhoneInputInput {
+height: 45px;
+}
+
+.PhoneInput {
+display: flex;
+align-items: center;
+top: 12px;
+margin: -7px 0 15px -11px;
+}
+
+
+.multiple{
+display: flex;
+  width: 100%;
+  border: 1px solid #00000029;
+  margin: 8px 11px 7px 10px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 2px 0px #b1b1b1;
+}
+.box-shadow-card{
+margin: 15px -13px 6px -10px;
+}
+.btn-style-margin{
+margin: 15px 0px 6px 15px;
+color: black;
+padding: 0;
+}
+.border-top
+{
+border-top: 1px solid;
+}
+.bg-file-color
+{
+background-color: rgba(14, 13, 13, 0.281);
+}
+.border-radius-17
+{
+border-radius: 17px!important;
+box-shadow: 8px -4px 3px -3px #ffffff21 !important;
+border: 1px solid #00000045;
+}
+.background-light-black
+{
+background: #00000012;
+}
+.font
+{
+font-weight: 100;
+}
+
+.client_add {
+position: absolute;
+top: calc(100% + 10px);
+left: 0;
+z-index: 9999;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+background-color: #ffffff;
+border-radius: 4px;
+padding: 10px;
+width: 100%;
+}
+
+.border-raduis-20
+{
+  background: antiquewhite;
+  border-radius: 13px;
+  width: initial;
+  overflow-y: scroll;
+  height: 50px;
+}
+
+#client-contact
+{
+border: 1px solid #0000004a;
+padding: 10px;
+border-radius: 12px;
+margin: 10px 7px 12px 0px;
+}
+
+.Client-list {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+.Client-list li {
+margin-bottom: 10px;
+}
+
+.CLIENT_CONTACT_CSS{
+border: 1px solid #0000004a;
+margin-top: 7px;
+border-radius: 3px;
+margin-right: 2px;
+margin-left: 3px;
+
+}
+
+.client_adds
+{
+left: 0;
+z-index: 9999;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+background-color: #ffffff;
+border-radius: 4px;
+padding: 10px;
+width: 100%;
+}
+span.font.font-600 {
+font-size: 29px;
+}
+.icon-m-10
+{
+margin-top: 10px;
+}
+.justify-end-text{
+text-align: -webkit-right;
+}
+
+.Deal-Peding-section .p-sidebar-content
+{
+  padding: 0;
+}
+
+.margin-12
+{
+  margin: 10px;
+}
+
+.background-white
+{
+  background-color: white;
+}
+
+.scroll-shadow-none
+{
+  -webkit-mask-image:none !important;
+   mask-image: none !important;
+}
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  top: -5px;
+  left: 0;
+  margin: 0;
+  padding: 0 8px;
+  pointer-events: none;
+  border-radius: 14px!important;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  min-width: 0%;
+  /* border-color: rgba(0, 0, 0, 0.23); */
+}
+
+.Border-Round div{
+border-radius: 15px;
+}

@@ -1,0 +1,44 @@
+{
+    "Country": [
+        {
+            "value": "Canada",
+            "label": "Canada"
+        },
+        {
+            "value": "united_states",
+            "label": "United States"
+        },
+        {
+            "value": "united_kingdom",
+            "label": "United Kingdom"
+        },
+        {
+            "value": "Germany",
+            "label": "Germany"
+        },
+        {
+            "value": "France",
+            "label": "France"
+        },
+        {
+            "value": "Australia",
+            "label": "Australia"
+        },
+        {
+            "value": "Japan",
+            "label": "Japan"
+        },
+        {
+            "value": "China",
+            "label": "China"
+        },
+        {
+            "value": "India",
+            "label": "India"
+        },
+        {
+            "value": "Brazil",
+            "label": "Brazil"
+        }
+    ]
+}

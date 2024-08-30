@@ -1,0 +1,51 @@
+.border-medium {
+    border-width: 1px;
+}
+span.flex-1.text-inherit.font-normal.px-1 {
+    font-weight: bold;
+    font-size: 10px;
+}
+
+@keyframes rotateColors {
+    0% { border-color: rgba(0, 0, 248, 0.041); }
+    25% { border-color: rgba(0, 0, 255, 0.274); }
+    50% { border-color: rgba(0, 0, 255, 0.514); }
+    75% { border-color: rgba(0, 0, 255, 0.5); }
+    100% { border-color: blue; }
+}
+
+.cardhover {
+    border-width: 1px;
+    border-style: solid;
+ /* Apply the animation */
+}
+
+.cardhover:hover {
+    animation: none; /* Stop the animation on hover */
+    border-color: blue; /* Set the border color to blue when hovered */
+    animation: rotateColors 5s linear infinite; 
+}
+.textchange
+{
+    font-size: 12px;
+    font-weight: 100;
+}
+.roundedborder
+{
+    border-radius: 12px;
+}
+roundedborder:hover
+{
+    border: 1px solid;
+}
+body {
+    overflow: hidden;
+}
+.heading
+{
+    margin: 0;
+    font-size: 2.125rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+    font-family: sans-serif;
+}

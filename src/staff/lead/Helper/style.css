@@ -1,0 +1,93 @@
+.icon-head
+{
+    border: 1px solid rgba(255, 255, 255, 0.315);
+    padding: 10px;
+    border-radius: 20px;
+    background-color:#3bc8f5;
+    color: white;
+    height: 77px;
+}
+.icon-width
+{
+    width: 55px;
+}
+.comment-text
+{
+    margin-top: 6px;
+    margin-left: 12px;
+    border: 1px rgba(207, 198, 191, 0.432) solid;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    padding: 11px;
+    font-size: 15px;
+}
+.edit-icon
+{
+    width: 15px;
+    margin-top: 19px;
+    margin-left: 12px;
+    /* display:none; */
+}
+.icon-hover:hover .edit-icon{
+    display:block;
+}
+.footer-modal
+{
+    justify-content: end;
+}
+
+.scroll-bar
+{
+    overflow-y: auto;
+}
+
+/* Width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 100px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #1a5bd4a8;
+    border-radius: 100px;
+    height: 12px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1a5bd4a8;
+    height: 12px;
+  }
+  
+
+  .border-hr
+  {
+    display: block;
+    border: 1px dashed #1c1c081c;
+    background: transparent;
+  }
+  .margin-none
+  {
+    padding:0!important;
+  }
+
+  .margin-none-two::before {
+    content: none!important;
+    -webkit-flex: 0!important;
+    -ms-flex: 0!important;
+    flex: 1!important;
+     padding: 0!important;
+}
+
+.table-task
+{
+  margin: 1px 13px 9px 13px;
+  border-radius: 36px;
+}

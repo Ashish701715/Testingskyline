@@ -1,0 +1,83 @@
+.ql-snow .ql-editor {
+    max-height: none !important;
+    min-height: 200px;
+    overflow: auto;
+}
+@media (min-device-width: 320px) and (max-device-width: 760px) {
+    .table3 {
+        border: 0!important;
+      }
+    
+      .table3 caption {
+        font-size: 1.3em;
+      }
+      
+      .table3 thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+      }
+      
+      
+      .table3 td {
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: .8em;
+        text-align: right;
+      }
+      
+      .table3 td::before {
+        /*
+        * aria-label has no advantage, it won't be read inside a .table3
+        content: attr(aria-label);
+        */
+        content: attr(data-column)!important;
+        font-weight: bold;
+        text-transform: uppercase;
+        opacity: 1.2!important;
+        text-align: left;
+        margin: 14px 0 0 8px;
+
+      }
+      :is([dir="ltr"] .table3 thead tr th), :is([dir="ltr"] .table3 tfoot tr th), :is([dir="ltr"] .table3 tbody tr td) {
+        text-align: end;
+    }
+      .table3 td:last-child {
+        border-bottom: 0;
+      }
+      .before\:bg-default\/40::before {
+        content: var(--tw-content);
+        background-color: transparent !important;
+    }
+    td>span::before {
+        content: attr(data-column)!important;
+    }
+    td>div::before {
+        content: attr(data-column)!important;
+    }
+    .set_margin_bottom {
+      grid-template-columns: repeat(0, minmax(0, 1fr))!important;
+  }
+    .set_margin_bottom > .col-span-4{
+      display: none;
+  }
+    .set_margin_bottom > .col-span-1 {
+      grid-column: span 4 / span 1;
+      margin-top: 10px;
+  }
+  .set_table_call_data > td {
+    font-size: 10px;
+}
+.phone_profily_icon > div > span {
+  display: none;
+}
+.set_width_select {
+  width: 85%;
+  margin: 0 0 0 51px;
+}
+}

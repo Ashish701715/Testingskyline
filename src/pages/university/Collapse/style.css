@@ -1,0 +1,16 @@
+.border-lable label
+{
+    border: 1px solid rgba(0, 0, 0, 0.293);
+}
+/* .after-line::after{
+    content: '';
+    border-bottom: 1px solid;
+} */
+.md-margin
+{
+    margin-bottom: 10px;
+}
+.justify-s
+{
+    justify-content: space-between;
+}

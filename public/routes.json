@@ -1,0 +1,198 @@
+{
+    "Route": [
+        {
+            "RoutePath": "/admin/",
+            "text": "Dashboard",
+            "isChild": false,
+            "Routetype": "admin"
+        },
+        {
+            "RoutePath": "/admin/announcement",
+            "Routetype": "admin",
+            "text": "Announcement",
+            "isChild": false
+        },
+        {
+            "RoutePath": "#",
+            "Routetype": "admin",
+            "text": "Applications Management",
+            "isChild": true,
+            "ChildComponent": [
+                {
+                    "RoutePath": "/admin/staff/student/application",
+                    "Routetype": "admin",
+                    "text": "Applications",
+                    "isChild": false
+                },
+                {
+                    "RoutePath": "/admin/student/offer-letter-application",
+                    "Routetype": "admin",
+                    "text": "Offer Letter",
+                    "isChild": false
+                },
+                {
+                    "RoutePath": "/admin/student/loan-services",
+                    "Routetype": "admin",
+                    "text": "Other Service",
+                    "isChild": false
+                }
+            ]
+        },
+        {
+            "RoutePath": "#",
+            "Routetype": "admin",
+            "text": "HRM",
+            "isChild": true,
+            "ChildComponent": [
+                {
+                    "RoutePath": "/admin/hrm/company/user",
+                    "Routetype": "admin",
+                    "text": "User Records",
+                    "isChild": false
+                },
+                {
+                    "RoutePath": "/admin/hrm/company/leave",
+                    "Routetype": "admin",
+                    "text": "Leave Requests",
+                    "isChild": false
+                },
+                {
+                    "RoutePath": "/admin/hrm/company/inventory",
+                    "Routetype": "admin",
+                    "text": "Inventory",
+                    "isChild": false
+                },
+                {
+                    "RoutePath": "/admin/hrm/company/clocklist",
+                    "Routetype": "admin",
+                    "text": "Attendance Report",
+                    "isChild": false
+                }
+            ]
+        },
+        {
+            "RoutePath": "/admin/university/add",
+            "Routetype": "admin",
+            "text": "University",
+            "isChild": false
+        },
+        {
+            "RoutePath": "#",
+            "Routetype": "admin",
+            "text": "Comission Management",
+            "isChild": true,
+            "ChildComponent": [
+                {
+                    "RoutePath": "/admin/commission/setting/manage",
+                    "Routetype": "admin",
+                    "text": "Manage - Comission",
+                    "isChild": false
+                },
+                {
+                    "RoutePath": "/admin/commission/pay",
+                    "Routetype": "admin",
+                    "text": "Pay & Comission",
+                    "isChild": false
+                }
+            ]
+        },
+        {
+            "RoutePath": "#",
+            "Routetype": "admin",
+            "text": "Setting",
+            "isChild": true,
+            "ChildComponent": [
+                {
+                    "RoutePath": "/admin/setting/lead",
+                    "Routetype": "admin",
+                    "text": "Apllication Status",
+                    "isChild": false
+                },
+                {
+                    "RoutePath": "/admin/setting/deal",
+                    "Routetype": "admin",
+                    "text": "Lead Status",
+                    "isChild": false
+                }
+            ]
+        },
+        {
+            "RoutePath": "/agent/",
+            "Routetype": "agent",
+            "text": "Dashboard",
+            "isChild": false
+        },
+        {
+            "RoutePath": "/agent/lead",
+            "Routetype": "agent",
+            "text": "Applications",
+            "isChild": false
+        },
+        {
+            "RoutePath": "/agent/note",
+            "Routetype": "agent",
+            "text": "Note",
+            "isChild": false
+        },
+        {
+            "RoutePath": "/agent/Task",
+            "Routetype": "agent",
+            "text": "Task",
+            "isChild": false
+        },
+        {
+            "RoutePath": "/agent/Commission",
+            "Routetype": "agent",
+            "text": "Commission",
+            "isChild": false
+        },
+        {
+            "RoutePath": "/agent/viewAnnouncement",
+            "Routetype": "agent",
+            "text": "Announcement",
+            "isChild": false
+        },
+        {
+            "RoutePath": "/staff/",
+            "Routetype": "staff",
+            "text": "Dashboard",
+            "isChild": false
+        },
+        {
+            "RoutePath": "/staff/lead/client",
+            "Routetype": "staff",
+            "text": "Apllications",
+            "isChild": false
+        },
+        {
+            "RoutePath": "/staff/client/deal",
+            "Routetype": "staff",
+            "text": "Leads",
+            "isChild": false
+        },
+        {
+            "RoutePath": "/staff/note",
+            "Routetype": "staff",
+            "text": "Notes",
+            "isChild": false
+        },
+        {
+            "RoutePath": "/staff/leave",
+            "Routetype": "staff",
+            "text": "Leave",
+            "isChild": false
+        },
+        {
+            "RoutePath": "/staff/university/add",
+            "Routetype": "staff",
+            "text": "universities",
+            "isChild": false
+        },
+        {
+            "RoutePath": "/staff/viewAnnouncement",
+            "Routetype": "staff",
+            "text": "Announcement",
+            "isChild": false
+        }
+    ]
+}

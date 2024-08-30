@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "value": "IELTS",
+        "label": "IELTS"
+    },
+    {
+        "id": 2,
+        "value": "PTE",
+        "label": "PTE"
+    },
+    {
+        "id": 3,
+        "value": "CECPIP",
+        "label": "CECPIP"
+    },
+    {
+        "id": 4,
+        "value": "CAEL",
+        "label": "CAEL"
+    },
+    {
+        "id": "DUOLINGO",
+        "value": "DUOLINGO",
+        "label": "DUOLINGO"
+    },
+    {
+        "id": 6,
+        "value": "UKVI",
+        "label": "UKVI"
+    },
+    {
+        "id": 8,
+        "value": "TOEFL",
+        "label": "TOEFL"
+    }
+   
+]

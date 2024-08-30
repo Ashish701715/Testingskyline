@@ -1,0 +1,90 @@
+.bg-transform
+{
+    background-color: transparent;
+    border: none;
+    border-left: 1px dashed white!important;
+    border-right: 1px dashed white!important;
+    /* border-bottom: 1px dashed white; */
+    
+}
+.panel {
+border-top: none!important;
+}
+.data-\[top-scroll\=true\]\:\[mask-image\:linear-gradient\(0deg\2c \#000_calc\(100\%_-_var\(--scroll-shadow-size\)\)\2c transparent\)\][data-top-scroll=true] {
+    mask-image: none!important;
+}
+
+.data-\[bottom-scroll\=true\]\:\[mask-image\:linear-gradient\(180deg\2c \#000_calc\(100\%_-_var\(--scroll-shadow-size\)\)\2c transparent\)\][data-bottom-scroll=true] {
+    mask-image: none!important;
+}
+
+.element-with-background::after {
+    background: url("data:image/svg+xml;charset=US-ASCII,<svg xmlns='http://www.w3.org/2000/svg' width='13' height='32' viewBox='0 0 13 32'><path fill='#10e5fc' fill-opacity='1' d='M0 0h3c2.8 0 4 3 4 3l6 13-6 13s-1.06 3-4 3H0V0z'/></svg>") no-repeat transparent;
+  }
+  
+  .box-shodw-none .css-3bmhjh-MuiPaper-root-MuiPopover-paper {
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.87);
+    -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 4px;
+    position: absolute;
+    overflow-y: auto;
+    overflow-x: hidden;
+    min-width: 16px;
+    min-height: 16px;
+    max-width: calc(100% - 32px);
+    max-height: calc(100% - 32px);
+    outline: 0;
+    border-radius: 10px;
+    width: 50vh;
+    height: 30vh;
+    box-shadow: none;
+}
+
+.main-color-picker-box {
+    width: 90%;
+    height: 32px;
+    margin: 18px 46px 15px 42px;
+    border-radius: 19px;
+}
+
+.ck.ck-editor__top .ck-sticky-panel .ck-sticky-panel__content {
+    border:none!important;
+    border-width: 1px 1px 0;
+    border-bottom: 1px solid #0000002a!important;
+    border-top: 1px solid #0000002a!important;
+}
+
+.ck.ck-editor__editable_inline {
+    border:none!important;
+    overflow: auto;
+    padding: 0 var(--ck-spacing-standard);
+    border-bottom: 1px solid #0000002a!important;
+    border-left: 1px solid #0000002a!important;
+    border-right: 1px solid #0000002a!important;
+}
+
+.background-black .p-button-label span
+{
+
+    background:black;
+}
+
+.btn-add {
+    background-color: rgba(0, 0, 0, 0.12);
+}
+
+.btn-add {
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.border-none
+{
+    border-top: none!important;
+    border-bottom: none!important;
+    border-left:1px dashed #ffffffc5!important;
+    border-right: 1px dashed #ffffffb2!important;
+
+}

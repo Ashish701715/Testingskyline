@@ -1,0 +1,132 @@
+.inviteuser {
+  margin-left: 56%;
+}
+
+.HRM_active {
+  color: rgb(2 2 2) !important;
+  background: #ffffff !important;
+  border-radius: 10px;
+  /* padding: 3px; */
+  padding: 0px 10px 0px 10px;
+}
+
+
+@media (min-device-width: 320px) and (max-device-width: 760px) {
+  .hidde_columns {
+    display: none;
+}
+  .flex.flex-col.relative.overflow-hidden.height-auto.text-foreground.box-border.bg-content1.outline-none.data-\[focus-visible\=true\]\:z-10.data-\[focus-visible\=true\]\:outline-2.data-\[focus-visible\=true\]\:outline-focus.data-\[focus-visible\=true\]\:outline-offset-2.shadow-medium.rounded-large.transition-transform-background.motion-reduce\:transition-none.p-5 {
+    padding: 13px 4px;
+  }
+
+  .flex.flex-wrap.gap-12.card-white {
+    gap: 1rem;
+  }
+
+  .shadow-small {
+    --tw-shadow: none;
+    --tw-shadow-colored: none;
+    box-shadow: none;
+  }
+
+  .p-4 {
+    padding: 0;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  /* Force table to not be like tables anymore */
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    border: 1px solid #ccc;
+  }
+
+  .table_phone {
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+  }
+
+  td>div {
+    font-size: 12px;
+  }
+
+  table tbody tr {
+    border-bottom-width: 1px;
+    border-color: rgb(224 230 237 / 0.4) !important;
+    width: -webkit-fill-available;
+    margin: 30px 0;
+  }
+
+  :where(.css-dev-only-do-not-override-3rel02)div {
+    position: initial;
+  }
+
+  :where(.css-dev-only-do-not-override-3rel02)div:before {
+    padding-right: 132px;
+  }
+
+  td>div {
+    text-align: right;
+  }
+
+  td>div:before {
+    /* Now like a table header */
+    position: absolute !important;
+    /* Top/left values mimic padding */
+    top: 6px !important;
+    left: 6px !important;
+    width: 10%;
+    padding-right: 10px !important;
+    white-space: nowrap;
+    /* Label the data */
+    content: attr(data-column) ' :' !important;
+
+    color: #000;
+    font-weight: bold;
+    font-size: 10px;
+  }
+
+  .pagetitle {
+    display: block;
+  }
+
+  .pagetitle>div {
+    margin-top: 10px;
+  }
+
+  span.text-tiny.text-foreground-400 {
+    font-size: 8px;
+  }
+
+  ul.flex.flex-nowrap.h-fit.max-w-fit.relative.items-center.overflow-visible.gap-0.shadow-sm.rounded-medium {
+    margin: 11px;
+  }
+
+  .py-2.px-2.flex.justify-between.items-center {
+    display: block;
+  }
+  .inviteuser {
+    margin-left: 0%;
+}
+
+
+}
